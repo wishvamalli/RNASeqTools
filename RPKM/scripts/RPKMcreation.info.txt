@@ -1,0 +1,10 @@
+please note that as the sequencing depth I've used the number of uniquely mapped reads from the repective alignment report.
+
+ 1014  python scripts/counts2RPKM.py ../bioscope_data/SUBMP/unique_Counts/RHE001_counttag_unique.txt 27790743
+ 1015  python scripts/counts2RPKM.py ../bioscope_data/SUBMP/unique_Counts/RHE001_counttag_unique.txt 26955116  > ../bioscope_data/SUBMP/unique_Counts/RHE001.RPKM.26955116.txt
+ 1016  python scripts/counts2RPKM.py ../bioscope_data/SUBMP/unique_Counts/RHE002_counttag_unique.txt 27790743  > ../bioscope_data/SUBMP/unique_Counts/RHE002.RPKM.27790743.txt
+ 1017  python scripts/counts2RPKM.py ../bioscope_data/SUBMP/unique_Counts/RHE003_counttag_unique.txt 26832589  > ../bioscope_data/SUBMP/unique_Counts/RHE003.RPKM.26832589.txt
+ 1018  python scripts/counts2RPKM.py ../bioscope_data/SUBMP/unique_Counts/RHE004_counttag_unique.txt 26237091  > ../bioscope_data/SUBMP/unique_Counts/RHE004.RPKM.26237091.txt
+ 1019  python scripts/counts2RPKM.py ../bioscope_data/SUBMP/unique_Counts/RHE005_counttag_unique.txt 26370337  > ../bioscope_data/SUBMP/unique_Counts/RHE005.RPKM.26370337.txt
+ 1020  ls
+ 1021  history > ../bioscope_data/SUBMP/history.txt

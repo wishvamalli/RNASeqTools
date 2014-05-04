@@ -1,0 +1,24 @@
+RNA-SEQ Toolbox
+__author__ = "Wishva Herath"
+__email__ = "wishvamalli@gmail.com"
+__copyright__ = "Copyright 2012"
+__status__ = "Prototype"
+__version__ = "0.0.1"
+__license__ = "GPL"
+
+
+This is a collection of python scripts which can be used to analyze RNA-Seq datasets. The scripts were written mainly to work with SOLiD data but they could be used for files from other technologies as well.
+
+The toolbox contains scripts for ...
+
+* RPKM calculation 
+* NTR identification
+* splice detection
+* alternative splicing analysis
+* others
+
+Currently its just a collection of scripts. I will add documentation and optimize them for speed in the comming weeks.
+
+As of now these scripts are at the prototype stage. 
+
+Wishva

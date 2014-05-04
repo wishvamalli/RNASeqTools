@@ -1,0 +1,21 @@
+Author : Wishva Bandara Herath, Dr. Paul Robson's group, Genome Institute of Singpore
+
+Title: Workflow for the identification of expressed repeat regions
+
+Files required: 1.repeatmasker output downloaded from UCSC 2.bioscope output wig files in one folder 3)A file which shows gaps in the annotation. i.e. the genomic coordinates of all intronic regions and intergenic regions.
+
+Steps:
+
+Step1: Producing a concatenated wig file
+       Use: concat.wig.py <wigfile folder>
+
+       
+Step2: Finding repeat regions which fall on either intronic regions or intergenic regions.
+       Use: findrepeatsingaps.py <gaps file> <repeatmasker file>
+
+       there is also an automator script for this.
+
+Step3: Finding expressed regions
+       countLTRs.py <concatenatedwigfile> <newannotationfile>
+
+       Use join.py for concatenating two results files... 

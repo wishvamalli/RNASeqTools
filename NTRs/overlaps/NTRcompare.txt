@@ -1,0 +1,8 @@
+Comparing NTRs of two samples...
+
+
+1. Generate NTRs
+2. cat * > xxx.NTR.txt
+3. make a results folder
+3. python scripts/extractCounts.py [input file.txt (xxx.NTR.txt)] [chrpos][start][stop][info][strand][resutls folder]
+4. python scripts/go.py [start pos][stop pos] [filter folder] [wig folder]
